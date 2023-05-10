@@ -5,6 +5,9 @@ const Navbar = () => {
     <div><nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
       <a className="navbar-brand" href="#">
+        <img src="node-js.png"
+        height={20}
+        />
         Navbar
       </a>
       <button
@@ -31,13 +34,11 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/Signup">
+            <a className="nav-link" href="#Signup">
               Signup
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link disabled">Disabled</a>
-          </li>
+          
         </ul>
       </div>
     </div>
